@@ -52,7 +52,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 src: [
-                    'src/i18n.js', 'src/rules.js', 'src/options.js',
+                    'src/i18n.js', 'src/shady.js', 'src/rules.js', 'src/options.js',
                     'src/ui.js', 'src/methods.js'
                 ],
                 dest: '<%= pkg.name %>.js'
